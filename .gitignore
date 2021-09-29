@@ -1,0 +1,16 @@
+# The best pattern people should follow is ignoring the editors' files in their
+# global .gitignore configuration file.
+# However, in order to prevent issues. We also ignore editors' files here.
+.idea
+
+*.log
+.DS_STORE
+/.eslintcache
+/tmp
+
+.pnp.*
+build
+coverage
+node_modules
+
+
